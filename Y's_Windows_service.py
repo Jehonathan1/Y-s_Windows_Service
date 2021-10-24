@@ -94,5 +94,5 @@ class myWinService(win32serviceutil.ServiceFramework):
 # 4. Launching the service  ___________________
 
 if __name__ == '__main__':
-    win32serviceutil.HandleCommandLine(my_Win_Service)
+    win32serviceutil.HandleCommandLine(myWinService)
 
